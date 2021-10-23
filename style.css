@@ -1,0 +1,40 @@
+.home {
+    position: relative;
+    width: 600px;
+    height: 600px;
+    background-color: rgba(7, 219, 53, 0.555);
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+.lift{
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    position: absolute;
+    left: 150px;
+    top: 450px;
+    /* transition: '2s'; */
+}
+.elevator {
+    width: 500px;
+    position: absolute;
+    top: 150px;
+    left: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+
+.btn {
+    height: 25px;
+}
+
+.button{
+    width: 300x;
+    top: 150px;
+    left:50px;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
